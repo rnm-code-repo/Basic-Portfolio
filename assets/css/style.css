@@ -1,0 +1,166 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    overflow: auto;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+#main {
+    background-color: #f5f1f1;
+    background-image: url("file:///Users/rekha/Work/git/Basic-Portfolio/assets/images/spiration-light.png");
+    background-repeat: repeat;
+    width: auto;
+    height: 100%;
+    border-top-color: #cccccc;
+    border-top-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    padding: 8px;
+    text-decoration: none;
+    color: #777777;
+}
+/* Adding Hover property on index,contact and portfolio */
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    border-radius: 3px;
+}
+
+#line {
+    color: #cccccc;
+}
+
+#content {
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    color: antiquewhite;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    line-height: 2.5;
+    font-size: 30px;
+}
+
+#items {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #777777;
+    float: right;
+    margin-top: -30px;
+}
+
+#about-me {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#myimage {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#full {
+    padding-top: 20px;
+    width: 960px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: thin;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: small;
+}
+/* Making Footer Sticky*/
+#footer {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #dddddd;
+    background-color: #666666;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 12px;
+    text-align: center;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid#ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(211, 223, 220);
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    width: 22%;
+    position: relative;
+}
+
+#pimg {
+    width: 175px;
+    height: 175px;
+    border-radius: 5px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 16px;
+    width: 175px;
+    background-color: #4aaaa5;
+    color: antiquewhite;
+    text-align: center;
+    padding: 0px;
+    padding-left: 0px;
+    line-height: 2.5;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
